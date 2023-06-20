@@ -1,0 +1,440 @@
+/* CSS code for styling content to center */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.center-text p {
+    list-style: none;
+}
+
+.image-container {
+    position: relative;
+}
+
+.indent {
+    padding-left: 10%; /* Adjust the indentation value as needed */
+}
+
+.indents {
+    padding-left: 20%; /* Adjust the indentation value as needed */
+}
+
+/* Font */
+.font {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Background image for homepage */
+#index-background {
+    background-image: url('images/man-city-background.jpg');
+	width:100%;
+	height:100%;
+}
+
+#stadium-background {
+    background-image: url('images/etihad-stadium.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Homepage title styling */
+#title {
+    color: white;
+    text-align: center;
+    font-size: 375%;
+}
+
+/* Navigation bar CSS code */
+nav {
+    color: white;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #64D2FF;
+    text-decoration: none;
+}
+
+nav ul li a {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+    background-color: #64D2FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    font-size: 35px;
+}
+
+nav ul li a:hover {
+    background-color: #1199ff;
+}
+
+/* Man City news iframe styling */
+#news-iframe {
+    width: 20%;
+    height: 60%;
+    background-color: #00c9ff;
+    opacity: 0.8;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    right: 10%;
+    bottom: 10%;
+}
+
+/* Man City fixtures iframe styling */
+#fixtures-iframe {
+    width: 20%;
+    height: 60%;
+    background-color: #00c9ff;
+    opacity: 0.8;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    right: 10%;
+    bottom: 10%;
+}
+
+/* CSS styling for this-season page */
+/* Background color for this-season tab */
+#this-season-background {
+    background: #64D2FF;
+
+}
+
+#season-stats {
+    width: 80%;
+}
+
+/* Iframe styling for Premier League table */
+#premtable {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.iframe-container video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Premier League table heading styling */
+.heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+#prem-paragraph {
+    text-align: center;
+}
+
+#prem-trophy-lift-image {
+    width: 100%;
+}
+
+/* FA Cup bracket styling */
+#fa-bracket {
+    width: 100%;
+    height: 100%;
+}
+
+#fa-paragraph {
+    text-align: center;
+}
+
+#fa-trophy-lift-image {
+    width: 100%;
+}
+
+/* UCL bracket styling */
+#ucl-bracket {
+    width: 100%;
+    opacity: 0.8;
+}
+
+#ucl-trophy-lift-image {
+    width: 100%;
+}
+
+#ucl-vid {
+    width: 100%;
+    height: 100%;
+}
+
+#fa-vid {
+    width: 100%;
+    height: 100%;
+}
+
+/* Treble image */
+#treble-image {
+    width: 100%;
+}
+
+/* Trophy Cabinet CSS */
+#trophy-cabinet-background {
+    background: #64D2FF;
+}
+
+#thicker-line {
+    border: 2px solid black;
+}
+
+/* Trebles, Continental and Domestic CSS */
+/* Domestic treble CSS */
+#domestic-treble {
+    width: 85%;
+}
+
+/* Continental treble CSS */
+#continental-treble {
+    width: 85%;
+}
+
+/* Players CSS code */
+/* Background */
+#players-background {
+    background: #64D2FF;
+}
+
+/* Table */
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+/* Starting 11 */
+#starting-XI {
+    width: 50%;
+}
+
+/* Player stats */
+#match-stats {
+    width: 90%;
+}
+
+/* City Stadium Tour */
+#city-360 {
+    height: 100%;
+    width: 50%;
+}
+
+#stadium-text {
+    color: #64D2FF;
+}
+
+#more-stadium-text {
+    color: #64D2FF;
+}
+
+/* About */
+/* History CSS */
+
+/* Early Club */
+#early-club {
+    width: 40%;
+}
+
+#early-success {
+    width: 80%;
+}
+
+/* Decline */
+#decline {
+    width: 80%
+}
+
+/* Recent Success */
+#recent-success {
+    width: 80%;
+}
+
+/* Club Records */
+/* Top scorers */
+#top-club-scorers {
+    width: 60%;
+}
+
+/* Most Appearances */
+#most-appearances {
+    width: 60%;
+}
+
+/* Single season top scorer */
+#single-season {
+    width: 60%;
+}
+
+/* Most assists */
+#assists {
+    width: 60%;
+}
+
+/* Highest Attendance */
+#highest-attendance {
+    width: 60%;
+}
+
+/* Club Legends */
+/* Aguero image */
+#aguero {
+    width: 60%;
+}
+
+#aguero-vid {
+    width: 30%;
+    height: 100%
+}
+
+/* David Silva image */
+#david-silva {
+    width: 60%;
+}
+
+#david-silva-vid {
+    width: 30%;
+    height: 100%
+}
+
+/* Vincent Kompany image */
+#vincent-kompany {
+    width: 60%;
+}
+
+#vincent-kompany-vid {
+    width: 70%;
+    height: 80%;
+}
+
+/* CSS code for horizontal line sizes */
+hr {
+    border: 2px solid black;
+}
+
+.thin-hr {
+    border: 1px solid black;
+}
+
+/* CSS code for rectangle around main HTML code */
+main {
+    max-width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ccf5ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* References background */
+#references-background {
+    background-color: #64D2FF;
+}
+
+#references {
+    color: black;
+    font-size: 98%;
+}
+
+li {
+    margin: 35px 0;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.otis {
+    list-style-type: none;
+}
+
+th {
+    background-color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #64D2FF;
+    font-weight: bold;
+}
+
+#season-goals-vid.video-iframe {
+    width: 1120px;
+    height: 630px;
+    border: 1px solid black; /* Add your desired border styles */
+}
